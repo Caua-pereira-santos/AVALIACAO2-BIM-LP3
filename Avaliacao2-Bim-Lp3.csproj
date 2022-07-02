@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Avaliacao2_Bim_Lp3</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <packageReference Include="Microsoft.Data.Sqlite" Version="6.0.5" />
+  <packageReference Include="dapper" Version="2.0.123" />
+
+</Project>
